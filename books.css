@@ -1,0 +1,1030 @@
+body{
+    margin:0px;
+    padding:0px;
+   box-sizing:border-box;
+  
+}
+
+   
+.offer {
+  position: relative;
+  width: 100%;
+  background-color: #e42b26;
+
+  overflow: hidden;
+}
+
+.offer-container {
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.offer-link {
+  display: flex;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.offer-link1 {
+  flex: 0 0 100%;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+ 
+  margin: 0 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+.offer-link1:hover{
+  text-decoration: underline;
+}
+
+
+.offer-button {
+  position: absolute;
+  top:20%;
+  background: #e42b26;
+
+ 
+ 
+  color: white;
+  font-size: 18px;
+ 
+
+ 
+}
+
+.offer-button.left {
+  left: 80px;
+  border:none;
+}
+
+.offer-button.right {
+  right: 80px;
+  border:none;
+}
+
+
+
+
+
+
+  
+.logo{
+    margin:10px;
+    
+    display:flex;
+}
+.logo img{
+  padding: 2px;
+  margin-top:2px;
+ max-width:50%;
+ height:50%;
+ vertical-align: middle;
+}
+
+
+.search{
+
+margin-left:130px;
+padding:25px;
+display:flex;
+max-width:200%;
+position:relative;
+}
+ .search input{
+ 
+    width: 660px;
+    border-radius: 5px 0 0 5px;
+    max-width: 80% !important;
+    padding: 6px;
+    outline: none;
+    border: 1px solid #e42b26;
+    padding: 5px 15px;
+    box-shadow: none;
+    height: 33px;
+    border-radius: 0px 0 0 0px !important;
+   
+
+   
+   
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+   
+    border: 1px solid red;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+input:hover{
+  border-color: red;
+}
+.icon{
+    
+    margin-rightt:150px;
+    background-color: red;
+    color:white;
+    padding:5px 15px;
+}
+.account {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    /* font-size: 16px; */
+    position:relative
+    cursor: pointer;
+    margin-left:200px;
+  }
+
+  .account img {
+   width:30px;
+    margin-right: 8px; 
+    color:red;
+    position: relative;
+  }
+
+  .account p {
+    
+    color: #707070;
+    font-size:15px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+position: relative;
+    
+    cursor:pointer;
+    
+  }
+  .account span{
+    color: #e42b26;;
+    font-size:25px;
+    width:15px;
+    margin-left:20px;
+  }
+  .account label{
+    margin-top:-10px;
+    color: #707070;
+    margin-left:-29px;
+    font-size:12px;
+    font-weight: bold;
+    
+  }
+  .deal {
+    background-color: #fff;
+}
+.deal img {
+top:2px;
+    position: relative; 
+    left: 920px;
+}
+.deal img:hover{
+  color:black;
+}
+
+
+
+.navbar {
+  background-color: white;
+  display:flex;
+  position:relative;
+
+  /* padding: 10px 10px;
+   */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  position: relative;
+      padding: 0px 20px;
+    color: #212529;
+    border-right: 1px solid #e42b26;
+    text-decoration: none;
+    display: flex;
+    font-size: 1rem;
+    font-weight:400;
+    max-width: 100%;;
+    flex-wrap: nowrap;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  
+
+
+l
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item.heart-icon {
+  margin-left: auto; 
+}
+
+.nav-link {
+  text-decoration: none;
+ 
+
+}
+
+.nav-link:hover {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  font-weight: bold;
+}
+
+.dropdown .nav-link {
+  cursor: pointer;
+}
+.navbar img{
+  margin-left:170px;
+  width:49px;
+}
+.navbar fig{
+  margin-left:-26px;
+  color: #707070;
+  margin-top:9px;
+   
+    font-size:13px;
+    font-weight: bold;
+    
+    overflow: clip;
+}
+.dropdown_menu {
+  display: none;
+  color:grey;
+  position: absolute;
+  background-color: #f9f9f9;
+ 
+  padding: 10px 0;
+  border-radius: 4px;
+  z-index: 1;
+  min-width: 300px;
+  
+}
+
+.dropdown_menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown_menu ul li {
+  padding: 8px 16px;
+}
+
+.dropdown_menu ul li a {
+  text-decoration: none;
+
+  
+  border-right: none;
+
+  font-size: 1rem;
+  font-weight:bold;
+ 
+  gap:15px;
+font-style: italic;
+
+line-height: 1.5 ;
+text-align: left;
+margin-left:-10px;
+
+
+  
+ 
+  color: #676767;
+  margin:0px;
+
+}
+
+.dropdown_menu ul li a:hover {
+  
+    color:  #d51912;
+    background-color:rgb(211, 211, 211);
+  
+  
+}
+
+nav a:hover + .dropdown_menu,
+.dropdown_menu:hover {
+  display: block;
+}
+
+
+
+
+  
+  .sar{
+    text-align:center;
+    margin-top:-5px;
+  }
+  .sar img{
+  
+      overflow-clip-margin: content-box;
+      overflow: clip;
+      width:100%;
+  };
+
+.carousel {
+  position: relative;
+  width: 100%;
+
+  overflow: hidden;
+
+
+
+  
+}
+
+
+.carousel-images {
+  display:flex;
+  transition: transform 0.5s ease-in-out;
+ 
+}
+
+
+.carousel-images img {
+  width: 100%;
+  height: auto; 
+  
+
+}
+
+
+.carousel-button {
+  position: absolute;
+ 
+  transform: translateYtop(-50%);
+  top:50%;
+  background-color:red;
+  color: white;
+  border: 3px solid red
+  border-radius: 50%;
+  width: 80px;
+
+  
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  border-color:red;
+ 
+  
+  transition: background-color 0.3s ease;
+  
+  padding:5px;
+  
+   
+    
+   
+    
+    
+}
+
+
+
+
+.carousel-button.left {
+  left: 80px;
+ margin-top:180px;
+ width:50px;
+ 
+}
+  
+
+
+
+.carousel-button.right {
+  right: 80px;
+  margin-top:180px;
+  width:50px;
+}
+
+.product-container{
+  margin-top:2px;
+  display:flex;
+  position: relative;
+  gap:30px;
+  margin-left:190px;
+  width:1450px;
+
+   
+}
+.product-images {
+  
+ margin-top:2px;
+ width:100%;
+ transition: transform 0.5s ease-in-out;
+}
+
+
+
+.product-images img {
+  width: 80px;
+  height: 80px; 
+  cursor:pointer;
+
+  overflow: clip;
+}
+ 
+ 
+
+.product-images figcaption{
+
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff
+
+}
+
+.product-button {
+  position: absolute;
+ 
+ 
+  
+ 
+  color: black;
+  
+ 
+  width: 80px;
+
+  
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  
+background-color:white;
+ border-color: white;
+ border:none;
+  
+ 
+  
+   
+    
+   
+    
+    
+}
+
+
+.product-button.left {
+  left: -100px;
+ margin-top:35px;
+font-size:25px;
+font-weight: bold;
+
+ 
+}
+  
+
+
+
+.product-button.right {
+  right:140px;
+  margin-top:35px;
+  font-size: 25px;
+  font-weight: bold;
+ 
+}
+.trending books{
+  text-align:center;
+}
+.trending h2{
+  font-size:30px;
+  font-style: italic;
+  text-decoration: none;
+  text-align:center;
+  font-weight: bold;
+  color:#332e2e;
+}
+.card-Details{
+  font-family: Arial, sans-serif;
+ 
+  margin: 0;
+  padding: 20px;
+  display:flex;
+  gap:30px;
+  margin-left:100px;
+}
+ 
+
+
+.card 
+{
+  background-color: #f3f6fc;
+  border: 2px solid #e0e0e0;
+  
+  outline: 3px solid #e0e0e0;
+  outline-offset: -17px;
+
+  background-origin: padding-box;
+  border-radius: 15px;
+  box-shadow: 0 8px 8px honeydew;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  height: 500px; 
+  
+  position: relative;     
+
+
+}
+.navlink1 a:hover{
+border: 1px solid #d51912;
+    font-size: 13px;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2px;
+   
+    background: #fff;
+    top: 31px;
+    width: 123px;
+    max-width: 90%;
+    left: 50%;
+    display: none;
+    transform: translateX(-50%);
+    cursor: pointer;
+    text-align: center;
+}
+  
+
+
+.discount-badge {
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  background:red;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  align-content:center ;
+border-radius:50%;
+height:36px;
+width:36px;
+ 
+font-family: Lato, sans-serif;;
+ 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 1; 
+
+
+}
+.book-cover {
+  width: 200px;
+  height:300px;
+  border-radius: 8px;
+  background-color: red;
+}
+
+.book-title {
+ 
+  
+  margin: 12px 0;
+ 
+    font-size: 14px;
+    color: #676767;
+    display: block;
+   
+    margin-top: 20px;
+   
+    font-weight:700;
+    overflow: hidden;
+
+}
+
+.author {
+  font-size: 14px;
+       color: #332e2e;
+  margin-bottom: 5px;
+}
+
+.rating {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  width: 120px;
+ 
+  border-radius: 10px;
+} 
+
+.stars {
+  color:  orange;
+  font-size: 24px;
+  margin-left:50px;
+ 
+}
+
+.reviews {
+  font-size: 14px;
+  color: #555;
+ 
+ 
+  font-family: Lato, sans-serif;;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 13px;
+  margin-left:10px;
+    background-color: #388e3c;
+}
+
+
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 8px;
+  margin-top:9px;
+}
+
+.current-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #d51912;
+   
+font-family: Lato, sans-serif;;
+}
+
+.original-price {
+  font-size: 14px;
+  color: #555;
+  text-decoration: line-through;
+   
+font-family: Lato, sans-serif;;
+}
+
+
+
+.card-button {
+  position: absolute;
+  top: 200%;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.card-button.left {
+  left: 80;
+ 
+}
+
+.card-button.right {
+  right: 80;
+
+}
+.see.all {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+.see.all a {
+  font-size: 14px; 
+  color: red; 
+  text-decoration: underline;
+  font-weight:bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.article {
+
+  display: block;
+  margin-left:50px;
+
+ position:relative;
+
+ 
+  color: #ffffe6;
+}
+
+.carousel1-container {
+  width: 70%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ 
+
+  .carousel1 {
+  
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top:-15px;
+  }
+    .item {
+      opacity: 0;
+      /* width: 100%; */
+   
+      display: none;
+      transition: opacity 0.5s ease-in-out;
+      margin-top:-20px;
+
+      img {
+        width: 1000px;
+        height: 600px;
+       display:block;
+       margin-left:50px;
+     
+        
+      }
+
+      
+
+      &.active {
+        opacity: 2;
+        display: flex;
+      }
+    }
+  }
+  .carousel1-button {
+    position: absolute;
+   
+   
+    
+   
+   color:black;
+    
+   
+   
+  
+    
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    
+ 
+    
+   
+    border:none;
+     
+      
+     
+      
+      
+  }
+  
+  
+  .carousel1-button.left {
+    left: 1px;
+   top:250px;
+   background-color: white;
+   font-size:30px;
+   font-weight:bold;
+  
+  
+   
+  }
+    
+  
+  
+  
+  .carousel1-button.right {
+    left:1040px;
+    top:250px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+   
+  }
+  .sellers{
+    text-align:center;
+
+  }
+  .sellers h2{
+    font-size:2rem;
+    font-weight:500;
+   
+  
+  font-style:italic;
+  float:left;
+  margin-left:90px;
+  margin-top:-3px;
+
+  }
+
+  .Best-Seller {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+   
+   
+   
+    
+  }
+
+  .seller1 {
+    padding: 20px;
+    text-align: center;
+  }
+
+h2 {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.see-all {
+    float: right;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #d32f2f;
+}
+
+.book-list {
+    display: flex;
+    /* overflow-x: auto; */
+    padding: 20px;
+    margin-left: 150px;
+    gap:20px;
+    float:left;
+   position:relative;
+   top:-30px;
+}
+
+.book-item {
+ 
+    margin: 10px;
+    text-align: center;
+}
+.book-item:hover{
+  border: 1px solid #ddd; 
+  box-shadow: 0 6px 20px 0 ghostwhite;
+  border-radius: 5px; 
+  padding: 5px; 
+}
+.book-item img {
+    width:100px;
+    height: auto;
+   
+  
+   border: 1px solid #ddd;
+   background-color: #ddd;
+   
+}
+
+.discount {
+    position: absolute;
+    background:red;
+    color: white;
+   align-content: center;
+    border-radius: 50%;
+    font-size: 13px;
+    margin-left: 80px;
+    border-radius:50%;
+    font-weight:700;
+height:36px;
+width:36px;
+font-family: Lato, sans-serif;;
+}
+
+.books-title {
+  margin: 12px 0;
+ 
+    font-size: 14px;
+    color: #676767;
+    display: block;
+   
+    margin-top: 20px;
+   
+    font-weight:bolder;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+.author {
+ 
+       color: #332e2e;
+  margin-bottom: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
+  font-size: 14px;
+  display: block;
+  height: 18px;
+  overflow: hidden;
+  text-align: center;
+  width: 100% !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  margin: 3px auto 0 auto;
+}
+
+.rating1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  
+  width: 120px;
+ 
+  border-radius: 10px;
+} 
+
+.starss {
+  color: orange; 
+  font-size:24px;
+  margin-left:10px;
+  margin-top:9px;
+ 
+}
+.review {
+  line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 13px;
+    vertical-align: middle;
+    background-color: #388e3c;
+    margin-bottom: 3px;
+    font-family: Lato, sans-serif;
+    
+}
+
+
+
+
+.price {
+    color: #d32f2f;
+    font-size: 15px;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #777;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+.arrivals
+{
+
+} 
+.arrivals h2{
+  margin-left: 80px;
+    font-weight: bold;
+    font-style: italic;
+    font-weight:700;
+    color:#676767;
+}
+.New-arrivals{
+  display: flex;
+  /* overflow-x: auto; */
+  padding: 20px;
+  margin-left: 10px;
+  gap:20px;
+  float:left;
+}
+ 
+ top:-30px;
+
+
+.Newarrivals-item {
+
+  margin: 10px;
+  text-align: center;
+}
+.Newarrivals-item:hover{
+border: 1px solid #ddd; 
+
+border-radius: 5px; 
+padding: 5px; 
+}
+.Newarrivals-item img {
+  width:100px;
+  height: auto;
+ 
+
+ border: 1px solid #ddd;
+ background-color: #ddd;
+ 
+}
+
+
+
+
+
