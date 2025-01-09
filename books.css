@@ -864,7 +864,7 @@ h2 {
     display: flex;
     /* overflow-x: auto; */
     padding: 20px;
-    margin-left: 150px;
+    margin-left: 60px;
     gap:20px;
     float:left;
    position:relative;
@@ -878,9 +878,11 @@ h2 {
 }
 .book-item img {
  
-  width: 100%;
+ width: 300%;
   height: auto;
   border-radius: 50px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth zoom animation */
+
 }
  
 
@@ -911,7 +913,7 @@ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
    align-content: center;
     border-radius: 50%;
     font-size: 13px;
-    margin-left: 80px;
+    margin-left: 70px;
     border-radius:50%;
     font-weight:700;
 height:36px;
@@ -1029,7 +1031,7 @@ font-family: Lato, sans-serif;;
   display: flex;
   /* overflow-x: auto; */
   padding: 20px;
-  margin-left: 150px;
+  margin-left: 80px;
   gap:20px;
   float:left;
  position:relative;
@@ -1055,22 +1057,24 @@ font-family: Lato, sans-serif;;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .Newarrivals-item img {
-  width:100px;
-  height: auto;
-  margin:10px;
- 
+  width:130px;
+  height: 200px;
+ border-radius:4px;
+
 
  border: 1px solid #ddd;
- background-color: #ddd;
+ box-shadow: rgb(60 64 67 / 10%) 0 1px 2px 0, rgb(60 64 67 / 10%) 0 1px 3px 1px;
+
  
 }
 .book-item img {
-  width:100px;
-  height: auto;
+  width:130px;
+  height: 200px;
  border-radius:4px;
 
  border: 1px solid #ddd;
- background-color: #ddd
+ /* background-color:white; */
+ box-shadow: rgb(60 64 67 / 10%) 0 1px 2px 0, rgb(60 64 67 / 10%) 0 1px 3px 1px;
  
 }
 
@@ -1081,7 +1085,7 @@ font-family: Lato, sans-serif;;
  align-content: center;
   border-radius: 50%;
   font-size: 13px;
-  margin-left: 80px;
+  margin-left: 120px;
   border-radius:50%;
   font-weight:700;
 height:36px;
@@ -1130,38 +1134,42 @@ width: 120px;
 border-radius: 10px;
 } 
 
-.star {
-color:grey; 
-font-size:24px;
-margin-left:10px;
-margin-top:9px;
-
+/* Star Styles */
+.star, .starss {
+  font-size: 24px;
+  margin-left: 10px;
+  margin-top: 9px;
 }
+
+.star {
+  color: grey;
+}
+
 .starss {
-  color:Orange; 
-  font-size:24px;
-  margin-left:10px;
-  margin-top:9px;
-  
-  }
+  color: orange;
+}
+
+/* Review Badge Styles */
 .review {
-line-height: normal;
+  line-height: normal;
   display: inline-block;
   color: #fff;
-  padding: 2px 4px 2px 6px;
+  padding: 2px 6px; /* Unified padding for consistency */
   border-radius: 3px;
   font-weight: 500;
   font-size: 13px;
   vertical-align: middle;
   background-color: #388e3c;
   margin-bottom: 3px;
-  font-family: Lato, sans-serif;
-  
+  font-family: 'Lato', sans-serif; /* Ensures font is properly quoted */
 }
+
+
 .review1{
   font-size:12px;
   margin-bottom: 3px;
   font-family: Lato, sans-serif;
+  
 
 }
 
@@ -1170,9 +1178,9 @@ line-height: normal;
 
 .price {
   color: #d32f2f;
-  font-size: 15px;
-  font-family: Lato, sans-serif;
-  font-weight: 500;
+  /* font-size: 15px; */
+  /* font-family: Lato, sans-serif; */
+  font-weight: 100;
 }
 
 .original-price {
@@ -1284,8 +1292,192 @@ top:-3px;
 }
 
 .Internationalseller-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
+  width: 125px;
+  height:200px;
+  
+  border-radius: 40px;
 }
 
+.discount1{
+  position: absolute;
+  background:red;
+  color: white;
+ align-content: center;
+  border-radius: 50%;
+  font-size: 13px;
+  margin-left: 80px;
+  border-radius:50%;
+  font-weight:700;
+height:36px;
+width:36px;
+font-family: Lato, sans-serif;;
+}
+.author1 {
+
+  color: #332e2e;
+margin-bottom: 5px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+font-size: 14px;
+display: block;
+height: 18px;
+overflow: hidden;
+text-align: center;
+width: 100% !important;
+white-space: nowrap;
+margin-left:2
+text-overflow: ellipsis;
+max-width: 100px;
+margin: 3px auto 0 auto;
+}
+
+.rating1 {
+font-family: Arial, sans-serif;
+text-align: center;
+
+width: 120px;
+
+border-radius: 10px;
+} 
+
+/* Star Styles */
+.star, .starss {
+font-size: 24px;
+margin-left: -2px;
+margin-top: 9px;
+}
+
+.star {
+color: grey;
+}
+
+.starss {
+color: orange;
+}
+
+/* Review Badge Styles */
+.review {
+line-height: normal;
+display: inline-block;
+color: #fff;
+padding: 2px 6px; /* Unified padding for consistency */
+border-radius: 3px;
+font-weight: 500;
+font-size: 13px;
+vertical-align: middle;
+background-color: #388e3c;
+margin-bottom: 3px;
+font-family: 'Lato', sans-serif; /* Ensures font is properly quoted */
+}
+
+
+.review1{
+font-size:12px;
+margin-bottom: 3px;
+font-family: Lato, sans-serif;
+
+
+}
+
+
+
+
+.price {
+color: #d32f2f;
+/* font-size: 15px; */
+/* font-family: Lato, sans-serif; */
+font-weight: 100;
+}
+
+.original-price {
+text-decoration: line-through;
+color: #777;
+font-family: Lato, sans-serif;
+font-weight: 500;
+}
+.books1-title{
+  /* font-family: 'Arial', sans-serif;  */
+  font-size: 2rem;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif               
+  font-weight: bold;               
+  color: #333;                    
+  text-align: center;            
+  margin: 8px 0;                   
+  position: relative;
+   
+
+}
+.Medical img{
+ margin:30px;
+ margin-left:90px; 
+max-width:130%;
+position:relative;
+}
+.Award h2{
+  font-size:2rem;
+  font-weight:500;
+ 
+
+font-style:italic;
+float:left;
+margin-left:90px;
+
+/* font-family: inherit; */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+top:-3px;
+  font-weight: 500;
+ 
+  color: inherit;
+}
+.BW h2{
+  font-size:2rem;
+  font-weight:500;
+ 
+
+font-style:italic;
+float:left;
+margin-left:90px;
+
+/* font-family: inherit; */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+top:-2px;
+  font-weight: 500;
+ 
+  color: inherit;
+}
+.Discount h2{
+  font-size:2rem;
+  font-weight:500;
+ 
+
+font-style:italic;
+float:left;
+margin-left:90px;
+
+/* font-family: inherit; */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+top:-2px;
+  font-weight: 500;
+ 
+  color: inherit;
+}
+.Box h2{
+  font-size:2rem;
+  font-weight:500;
+ 
+
+font-style:italic;
+float:left;
+margin-left:90px;
+
+/* font-family: inherit; */
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+top:-2px;
+  font-weight: 500;
+ 
+  color: inherit;
+}
